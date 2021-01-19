@@ -1,0 +1,203 @@
+/* Navbar */
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: Viga;
+  font-size: 32px;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-image: url(img/banner.jpg);
+  background-size: cover;
+  height: 540px;
+  text-align: center;
+  position: relative;
+}
+
+.jumbotron .container {
+  z-index: 1;
+  position: relative;
+}
+
+.jumbotron .display-4 {
+  color: white;
+  margin-top: 150px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.jumbotron .display-4 span {
+  font-weight: 600;
+}
+
+/* info panel */
+.info-panel {
+  background-color: white;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: -100px;
+  padding: 30px;
+}
+
+.info-panel img {
+  height: 80px;
+  margin-right: 20px;
+}
+
+.info-panel h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+  color: #14284F;
+}
+
+.info-panel p {
+  font-size: 15px;
+  color: #acacac;
+  font-weight: 200;
+}
+
+/* highlight */
+.highlight {
+  margin-top: 120px;
+  text-align: center;
+  color: #14284F;
+}
+
+.highlight h3 {
+  font-size: 52px;
+  font-weight: 200;
+  margin-top: 30px;
+}
+
+.highlight h3 span {
+  font-weight: 500;
+}
+
+.highlight p {
+  font-size: 18px;
+  color: #acacac;
+  font-weight: 200;
+  margin: 20px 0 50px;
+}
+
+.highlight a {
+  margin-top: 20px;
+}
+
+/* testimonial */
+.testimonial {
+  margin-top: 100px;
+  color: #14284F;
+}
+
+.testimonial h5 {
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 24px;
+}
+
+.testimonial figure img {
+  width: 60px;
+  margin: 30px 15px 10px;
+  opacity: 0.5;
+}
+
+/* kenapa "img.utama" gapake spasi??? */
+.testimonial figure img.utama {
+  width: 90px;
+  opacity: 1;
+  margin-top: 15px;
+}
+
+.testimonial figure h5 {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  color: #14284F;
+}
+
+.testimonial figure p {
+  font-size: 12px;
+  color: #acacac;
+  margin-top: -5px;
+}
+
+.testimonial figcaption {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 70px;
+}
+
+.footer p {
+  color: #acacac;
+  font-size: 18px;
+
+}
+
+/* Utilities */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+/* ----------- DEKSTOP VIEW -------------- */
+
+@media (min-width: 992px) {
+
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link.active {
+    border-bottom: 3px solid #fff;
+    margin-bottom: -3px;
+  }
+
+  .nav-link:hover {
+    border-bottom: 3px solid #0b63dc;
+    margin-bottom: -3px;
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+    height: 640px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 64px;
+  }
+
+  .highlight {
+    text-align: left;
+  }
+
+  .highlight .col-lg-5 {
+    margin-left: 30px;
+  }
+
+  .testimonial h5 {
+    font-size: 26px;
+  }
+}

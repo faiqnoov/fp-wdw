@@ -1,0 +1,103 @@
+/* Navbar */
+.navbar {
+  position: relative;
+  z-index: 1;
+  /* background-color: gray; */
+  box-shadow: 0 2px 4px gray;
+}
+
+.navbar-brand {
+  font-family: Viga;
+  font-size: 32px;
+}
+
+.navbar-brand {
+  color: #14284F !important;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+
+/* product */
+.header {
+  margin: 70px 0 20px;
+  margin-bottom: 70px 0 20px;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.header2 {
+  margin: 10px 0;
+}
+
+.header2 h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.footer {
+  margin-top: 70px;
+}
+
+.footer p {
+  color: #acacac;
+  font-size: 18px;
+
+}
+
+/* ===== About Page ===== */
+.jumbotron {
+  background-color: #acacac;
+}
+
+.jumbotron .row {
+  margin-top: 30px;
+}
+
+.logoJP {
+  height: 50px;
+}
+
+/* ===== end About Page ===== */
+
+
+
+/* ----------- DEKSTOP VIEW -------------- */
+
+@media (min-width: 992px) {
+
+  .navbar-brand,
+  .nav-link {
+    color: #14284F !important;
+    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); */
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link.active {
+    border-bottom: 3px solid #14284F;
+    margin-bottom: -3px;
+  }
+
+  .nav-link:hover {
+    border-bottom: 3px solid #0b63dc;
+    margin-bottom: -3px;
+  }
+}
+
+.produk {
+  margin-bottom: 20px;
+}
+
+/* ===== About Page ===== */
+
+/* ===== end About Page ===== */
